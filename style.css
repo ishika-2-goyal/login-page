@@ -18,9 +18,29 @@
     --btn-hover-bg-color:rgba(255,136,0,0.7);
     --password-btn-color:#ffbb33;
     --form-footer-bg:rgba(255,255,255,0.05);
-    --form-footer-shadow:inset 0 4px 10px rgba(0,0,0,0,0.3);
-    
+    --form-footer-shadow:inset 0 4px 10px rgba(0,0,0,0.3);
+    --input-focus-shadow:rgba(255,187,51,0.7);
+    --box-shadow:0 8px 32px rgba(0,0,0,0.37);
+    --form-border-color:rgba(255,255,255,0.18);
+}
+/* To use light theme:<body class="light-theme">*/
+.light-theme{
+    --background-color:#f0f0f0;
+    --form-bg-color:rgba(0,0,0,0,0.05);
+    --input-bg-color:rgba(0,0,0,0.0.5);
+    --input-border-color:rgba(0,0,0,0.2);
+    --text-color:#000;
+    --placeholder-color:#666;
+    --error-color:#d9534f;
+    --focus-border-color:#0275d8;
+    --progress-bg-color:rgba(0,0,0,0.1);
+    --progress-fill-color:linear-gradient(90deg,#0275d8,#5bc0de);
+    --progress-percentage-color:#0275d8;
+    --checklist-text-color:#666;
+    --checklist-incomplete-color:#000;
+    --checklist-complete-color:#999;
+    --btn-bg-color:rgba(160,160,1)
 
-    
-    
+
+
 }
